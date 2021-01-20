@@ -194,7 +194,11 @@ footer {
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
 
+<script SameSite="None; Secure" src="https://static.landbot.io/landbot-3/landbot-3.0.0.js"></script>
 <script>
+  var myLandbot = new Landbot.Livechat({
+    configUrl: 'https://chats.landbot.io/v3/H-802123-C1GWN5IAZ8742KUV/index.json',
+  });
 
 var slideIndex = 1;
 showSlides(slideIndex);
